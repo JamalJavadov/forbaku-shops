@@ -56,7 +56,7 @@ if (window.matchMedia('(min-width: 1025px)').matches) {
     function createLogoCloud() {
         logoGroup = new THREE.Group();
         const textureLoader = new THREE.TextureLoader();
-        const logos = ['images/netflix-logo.png', 'images/spotify-logo.png', 'images/youtube-logo.png', 'images/chatgpt-logo.png'];
+        const logos = ['hbomax-logo.png','images/mubi-logo','images/netflix-logo.png', 'images/prime-logo.png', 'images/youtube-logo.png', 'images/chatgpt-logo.png','images/disney-logo','images/canva-logo'];
         const basePlaneHeight = 25; // 3D səhnədəki loqoların baza hündürlüyü
 
         for (let i = 0; i < 40; i++) {

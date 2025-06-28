@@ -4,7 +4,7 @@ if (window.matchMedia('(min-width: 1025px)').matches) {
     let scene, camera, webGLRenderer, css3DRenderer;
     let contentGroup = new THREE.Group();
     let sections = [];
-    const sectionDistance = 950; 
+    const sectionDistance = 1100; 
 
     let particles, logoGroup;
     const mouse = new THREE.Vector2();
